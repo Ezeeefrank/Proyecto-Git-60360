@@ -1,7 +1,6 @@
 * {
     font-family: Poppins;
-	background: #e2dcd5; 
-
+    background: #e2dcd5;
 }
 
 
@@ -10,6 +9,7 @@
     padding: 0;
     display: flex;
     justify-content: space-between;
+
 }
 
 .nav-item {
@@ -87,10 +87,10 @@
 .redes a i {
     width: 60px;
     color: black;
-font-size: 25px;
+    font-size: 25px;
 }
 
 .footer-container {
-   
+
     margin-left: 18%;
 }
