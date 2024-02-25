@@ -122,3 +122,17 @@ p span {
     color: brown;
 }
 
+/**sobre-nosotros**/
+
+.img-banner{
+padding-top: 8%;}
+
+.Nosotros{
+    padding: 8%;
+}
+
+.Nosotros h2{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #5e616a;
+}
