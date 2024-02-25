@@ -1,0 +1,96 @@
+* {
+    font-family: Poppins;
+	background: #e2dcd5; 
+
+}
+
+
+
+.navbar {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    padding: 15px;
+}
+
+.carousel-inner {
+    padding-top: 5%;
+
+}
+
+.carousel-item {
+    min-width: 300px;
+}
+
+.carousel-item img {
+    height: 55vh;
+}
+
+.navbar-brand img {
+    border-radius: 5%;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        bottom: 125px;
+    }
+
+}
+
+.about-img img {
+    width: 700px;
+}
+
+.about-seccion-padding {
+    padding: 3%;
+
+}
+
+.row {
+    justify-content: center;
+    align-items: center;
+}
+
+.col {
+    width: 600px;
+    padding: 3%;
+}
+
+.product {
+    padding: 5%;
+}
+
+
+
+.producto-titulo {
+    text-align: center;
+}
+
+.btn {
+    background-color: #f9f3e6;
+
+
+}
+
+.btn:hover {
+    background: #5e616a;
+
+}
+
+.redes a i {
+    width: 60px;
+    color: black;
+font-size: 25px;
+}
+
+.footer-container {
+   
+    margin-left: 18%;
+}
