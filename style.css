@@ -1,3 +1,5 @@
+/**index**/
+
 * {
     font-family: Poppins;
     background: #e2dcd5;
@@ -90,7 +92,33 @@
     font-size: 25px;
 }
 
-.footer-container {
-
-    margin-left: 18%;
+.footer .redes a i{
+color: black;
 }
+
+.footer .redes a i:hover{
+    text-decoration:none;
+    color: #e8aa8c;
+    }
+
+/**Productos**/
+
+.productos-container {
+    padding-top: 10%;
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+p span {
+    color: brown;
+}
+
