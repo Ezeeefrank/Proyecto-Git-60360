@@ -6,17 +6,21 @@
 }
 
 
-
 .navbar {
     padding: 0;
     display: flex;
     justify-content: space-between;
 
 }
+.nav-link{
+    font-weight: bolder;
+    font-size: 20px;
+}
 
 .nav-item {
     padding: 15px;
 }
+
 
 .carousel-inner {
     padding-top: 5%;
@@ -77,7 +81,8 @@
 
 .btn {
     background-color: #f9f3e6;
-
+font-weight: bolder;
+font-size: 20px;
 
 }
 
@@ -98,7 +103,7 @@ color: black;
 
 .footer .redes a i:hover{
     text-decoration:none;
-    color: #e8aa8c;
+    color: #f9f3e6;
     }
 
 /**Productos**/
@@ -125,7 +130,7 @@ p span {
 /**sobre-nosotros**/
 
 .img-banner{
-padding-top: 8%;}
+padding-top: 5%;}
 
 .Nosotros{
     padding: 8%;
