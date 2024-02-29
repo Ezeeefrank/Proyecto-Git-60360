@@ -127,6 +127,16 @@ p span {
     color: brown;
 }
 
+.card-boton{
+    padding-left: 43%;
+    font-weight: bold;
+    color: #4e413b;
+    text-decoration: none;
+}
+.card-boton:hover{
+    
+    color: #857671;
+}
 /**sobre-nosotros**/
 
 .img-banner{
@@ -141,3 +151,4 @@ padding-top: 5%;}
     font-weight: bolder;
     color: #5e616a;
 }
+
