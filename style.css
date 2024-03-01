@@ -183,15 +183,21 @@ body {
 
 .big-img img {
     width: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
+.big-img img:hover {
+    transform: scale(1.2);
+}
 .img-productos {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 70%;
     gap: 5%;
     margin-top: 15px;
 }
+
 
 .sm-img {
     width: 200px;
@@ -199,6 +205,8 @@ body {
     overflow: hidden;
 
 }
+
+
 
 .sm-img img {
     width: inherit;
@@ -274,4 +282,3 @@ body {
 .descripcion-texto p {
     font-size: 15px;
 }
-
