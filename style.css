@@ -12,9 +12,10 @@
     justify-content: space-between;
 
 }
-.nav-link{
+
+.nav-link {
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .nav-item {
@@ -79,17 +80,7 @@
     text-align: center;
 }
 
-.btn {
-    background-color: #f9f3e6;
-font-weight: bolder;
-font-size: 20px;
 
-}
-
-.btn:hover {
-    background: #5e616a;
-
-}
 
 .redes a i {
     width: 60px;
@@ -97,14 +88,14 @@ font-size: 20px;
     font-size: 25px;
 }
 
-.footer .redes a i{
-color: black;
+.footer .redes a i {
+    color: black;
 }
 
-.footer .redes a i:hover{
-    text-decoration:none;
+.footer .redes a i:hover {
+    text-decoration: none;
     color: #f9f3e6;
-    }
+}
 
 /**Productos**/
 
@@ -127,28 +118,148 @@ p span {
     color: brown;
 }
 
-.card-boton{
+.card-boton {
     padding-left: 43%;
     font-weight: bold;
     color: #4e413b;
     text-decoration: none;
 }
-.card-boton:hover{
-    
+
+.card-boton:hover {
+
     color: #857671;
 }
+
 /**sobre-nosotros**/
 
-.img-banner{
-padding-top: 5%;}
+.img-banner {
+    padding-top: 5%;
+}
 
-.Nosotros{
+.Nosotros {
     padding: 8%;
 }
 
-.Nosotros h2{
+.Nosotros h2 {
     font-size: 50px;
     font-weight: bolder;
     color: #5e616a;
+}
+
+/**pagina-productos**/
+body {
+    background: #e2dcd5;
+
+}
+
+.flex-box {
+    padding-top: 10%;
+    display: flex;
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.left {
+    width: 50%;
+}
+
+.big-img {
+    width: 500px;
+    border: 1.5px solid #4e413b;
+    overflow: hidden;
+    border-radius: 1.5%;
+}
+
+.big-img img {
+    width: inherit;
+}
+
+.img-productos {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    gap: 5%;
+    margin-top: 15px;
+}
+
+.sm-img {
+    width: 200px;
+    border: 1.5px solid #4e413b;
+    overflow: hidden;
+
+}
+
+.sm-img img {
+    width: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 1.5%;
+
+}
+
+.sm-img img:hover {
+    transform: scale(1.2);
+}
+
+.rigt {
+    padding-left: 15%;
+}
+
+
+.nombre h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.precio {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.cantidad {
+    display: flex;
+
+}
+
+.cantidad p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cantidad input {
+    width: 60px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn-box {
+    display: flex;
+    margin: 20px 0;
+
+}
+
+.btn-box button {
+    font-size: 18px;
+    padding: 8px 25px;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #f9f3e6;
+
+}
+
+.descripcion {
+    display: flex;
+    padding: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.descripcion-texto p {
+    font-size: 15px;
 }
 
