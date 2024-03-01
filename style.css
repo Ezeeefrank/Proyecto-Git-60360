@@ -81,6 +81,18 @@
 }
 
 
+.card-boton2 {
+    font-weight: bold;
+    color: #4e413b;
+    text-decoration: none;
+}
+
+.card-boton2:hover {
+
+    color: #857671;
+}
+
+
 
 .redes a i {
     width: 60px;
@@ -165,7 +177,6 @@ body {
 
 .big-img {
     width: 500px;
-    border: 1.5px solid #4e413b;
     overflow: hidden;
     border-radius: 1.5%;
 }
@@ -256,6 +267,7 @@ body {
     padding: 5%;
     margin-left: 10%;
     margin-right: 10%;
+    color: #5e616a;
 
 }
 
