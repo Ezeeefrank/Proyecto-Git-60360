@@ -80,6 +80,14 @@
     text-align: center;
 }
 
+.card img{
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}
 
 .card-boton2 {
     font-weight: bold;
@@ -201,7 +209,6 @@ body {
 
 .sm-img {
     width: 200px;
-    border: 1.5px solid #4e413b;
     overflow: hidden;
 
 }
@@ -273,8 +280,8 @@ body {
 .descripcion {
     display: flex;
     padding: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 8%;
     color: #5e616a;
 
 }
