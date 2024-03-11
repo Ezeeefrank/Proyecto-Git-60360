@@ -1,0 +1,171 @@
+/**Productos**/
+.product {
+  padding: 5%;
+}
+
+.producto-titulo {
+  text-align: center;
+}
+
+.card img {
+  transition: all 0.3s ease;
+  overflow: hidden;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.card-boton2 {
+  font-weight: bold;
+  color: #4e413b;
+  text-decoration: none;
+
+  &:hover {
+    color: #857671;
+  }
+}
+
+.productos-container {
+  padding-top: 10%;
+}
+
+h1 {
+  text-align: center;
+  justify-content: center;
+  font-size: 80px;
+  font-weight: bolder;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+p span {
+  color: brown;
+}
+
+.card-boton {
+  padding-left: 43%;
+  font-weight: bold;
+  color: #4e413b;
+  text-decoration: none;
+
+  &:hover {
+    color: #857671;
+  }
+}
+
+/**pagina-productos**/
+body {
+  background: #e2dcd5;
+}
+
+.flex-box {
+  padding-top: 10%;
+  display: flex;
+  width: 1000px;
+  margin: 20px auto;
+}
+
+.left {
+  width: 50%;
+}
+
+.big-img {
+  width: 500px;
+  overflow: hidden;
+  border-radius: 1.5%;
+
+  img {
+    width: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.img-productos {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  gap: 5%;
+  margin-top: 15px;
+}
+
+.sm-img {
+  width: 200px;
+  overflow: hidden;
+
+  img {
+    width: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 1.5%;
+  }
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.rigt {
+  padding-left: 15%;
+}
+
+.nombre h4 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.precio {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.cantidad {
+  display: flex;
+
+  p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  input {
+    width: 60px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+  }
+}
+
+.btn-box {
+  display: flex;
+  margin: 20px 0;
+
+  button {
+    font-size: 18px;
+    padding: 8px 25px;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #f9f3e6;
+  }
+}
+
+.descripcion {
+  display: flex;
+  padding: 5%;
+  margin-left: 5%;
+  margin-right: 8%;
+  color: #5e616a;
+}
+
+.descripcion-texto p {
+  font-size: 15px;
+}

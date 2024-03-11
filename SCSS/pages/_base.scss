@@ -1,0 +1,42 @@
+* {
+    font-family: Poppins;
+    background: #e2dcd5;
+}
+.carousel-inner {
+    padding-top: 5%;
+}
+
+.carousel-item {
+    min-width: 300px;
+
+    img {
+        height: 55vh;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        bottom: 125px;
+    }
+}
+
+.redes a i {
+    width: 60px;
+    color: black;
+    font-size: 25px;
+}
+
+.footer .redes a i {
+    color: black;
+
+    &:hover {
+        text-decoration: none;
+        color: #f9f3e6;
+    }
+}
+
