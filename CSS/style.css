@@ -1,291 +1,253 @@
 /**index**/
-
 * {
-    font-family: Poppins;
-    background: #e2dcd5;
+  font-family: Poppins;
+  background: #e2dcd5;
 }
 
-
 .navbar {
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-link {
-    font-weight: bolder;
-    font-size: 18px;
+  font-weight: bolder;
+  font-size: 18px;
 }
 
 .nav-item {
-    padding: 15px;
+  padding: 15px;
 }
 
-
 .carousel-inner {
-    padding-top: 5%;
-
+  padding-top: 5%;
 }
 
 .carousel-item {
-    min-width: 300px;
+  min-width: 300px;
 }
-
 .carousel-item img {
-    height: 55vh;
+  height: 55vh;
 }
 
 .navbar-brand img {
-    border-radius: 5%;
+  border-radius: 5%;
 }
 
 @media only screen and (max-width: 767px) {
-    .navbar-nav {
-        text-align: center;
-    }
-
-    .carousel-caption {
-        bottom: 125px;
-    }
-
+  .navbar-nav {
+    text-align: center;
+  }
+  .carousel-caption {
+    bottom: 125px;
+  }
 }
-
 .about-img img {
-    width: 700px;
+  width: 700px;
 }
 
 .about-seccion-padding {
-    padding: 3%;
-
+  padding: 3%;
 }
 
 .row {
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .col {
-    width: 600px;
-    padding: 3%;
+  width: 600px;
+  padding: 3%;
 }
 
 .product {
-    padding: 5%;
+  padding: 5%;
 }
-
-
 
 .producto-titulo {
-    text-align: center;
+  text-align: center;
 }
 
-.card img{
-    transition: all 0.3s ease;
-    overflow: hidden;
+.card img {
+  transition: all 0.3s ease;
+  overflow: hidden;
 }
-
 .card img:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .card-boton2 {
-    font-weight: bold;
-    color: #4e413b;
-    text-decoration: none;
+  font-weight: bold;
+  color: #4e413b;
+  text-decoration: none;
 }
-
 .card-boton2:hover {
-
-    color: #857671;
+  color: #857671;
 }
-
-
 
 .redes a i {
-    width: 60px;
-    color: black;
-    font-size: 25px;
+  width: 60px;
+  color: black;
+  font-size: 25px;
 }
 
 .footer .redes a i {
-    color: black;
+  color: black;
 }
-
 .footer .redes a i:hover {
-    text-decoration: none;
-    color: #f9f3e6;
+  text-decoration: none;
+  color: #f9f3e6;
 }
 
 /**Productos**/
-
 .productos-container {
-    padding-top: 10%;
+  padding-top: 10%;
 }
 
 h1 {
-    text-align: center;
-    justify-content: center;
-    font-size: 80px;
-    font-weight: bolder;
+  text-align: center;
+  justify-content: center;
+  font-size: 80px;
+  font-weight: bolder;
 }
 
 h5 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 p span {
-    color: brown;
+  color: brown;
 }
 
 .card-boton {
-    padding-left: 43%;
-    font-weight: bold;
-    color: #4e413b;
-    text-decoration: none;
+  padding-left: 43%;
+  font-weight: bold;
+  color: #4e413b;
+  text-decoration: none;
 }
-
 .card-boton:hover {
-
-    color: #857671;
+  color: #857671;
 }
 
 /**sobre-nosotros**/
-
 .img-banner {
-    padding-top: 5%;
+  padding-top: 5%;
 }
 
 .Nosotros {
-    padding: 8%;
+  padding: 8%;
 }
-
 .Nosotros h2 {
-    font-size: 50px;
-    font-weight: bolder;
-    color: #5e616a;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #5e616a;
 }
 
 /**pagina-productos**/
 body {
-    background: #e2dcd5;
-
+  background: #e2dcd5;
 }
 
 .flex-box {
-    padding-top: 10%;
-    display: flex;
-    width: 1000px;
-    margin: 20px auto;
+  padding-top: 10%;
+  display: flex;
+  width: 1000px;
+  margin: 20px auto;
 }
 
 .left {
-    width: 50%;
+  width: 50%;
 }
 
 .big-img {
-    width: 500px;
-    overflow: hidden;
-    border-radius: 1.5%;
+  width: 500px;
+  overflow: hidden;
+  border-radius: 1.5%;
 }
-
 .big-img img {
-    width: inherit;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  width: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.big-img:hover {
+  transform: scale(1.2);
 }
 
-.big-img img:hover {
-    transform: scale(1.2);
-}
 .img-productos {
-    display: flex;
-    justify-content: space-between;
-    width: 70%;
-    gap: 5%;
-    margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  gap: 5%;
+  margin-top: 15px;
 }
-
 
 .sm-img {
-    width: 200px;
-    overflow: hidden;
-
+  width: 200px;
+  overflow: hidden;
 }
-
-
-
 .sm-img img {
-    width: inherit;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    border-radius: 1.5%;
-
+  width: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 1.5%;
 }
-
-.sm-img img:hover {
-    transform: scale(1.2);
+.sm-img:hover {
+  transform: scale(1.2);
 }
 
 .rigt {
-    padding-left: 15%;
+  padding-left: 15%;
 }
 
-
 .nombre h4 {
-    font-size: 25px;
-    font-weight: 600;
-    margin-top: 50px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 50px;
 }
 
 .precio {
-    font-size: 20px;
-    font-weight: 500;
-    margin: 20px 0;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 20px 0;
 }
 
 .cantidad {
-    display: flex;
-
+  display: flex;
 }
-
 .cantidad p {
-    font-size: 18px;
-    font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
 }
-
 .cantidad input {
-    width: 60px;
-    font-size: 17px;
-    font-weight: 500;
-    text-align: center;
+  width: 60px;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: center;
 }
 
 .btn-box {
-    display: flex;
-    margin: 20px 0;
-
+  display: flex;
+  margin: 20px 0;
 }
-
 .btn-box button {
-    font-size: 18px;
-    padding: 8px 25px;
-    outline: none;
-    border-radius: 6px;
-    cursor: pointer;
-    background-color: #f9f3e6;
-
+  font-size: 18px;
+  padding: 8px 25px;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #f9f3e6;
 }
 
 .descripcion {
-    display: flex;
-    padding: 5%;
-    margin-left: 5%;
-    margin-right: 8%;
-    color: #5e616a;
-
+  display: flex;
+  padding: 5%;
+  margin-left: 5%;
+  margin-right: 8%;
+  color: #5e616a;
 }
 
 .descripcion-texto p {
-    font-size: 15px;
+  font-size: 15px;
 }
+
+/*# sourceMappingURL=style.css.map */

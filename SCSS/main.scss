@@ -1,0 +1,271 @@
+/**index**/
+* {
+    font-family: Poppins;
+    background: #e2dcd5;
+}
+
+
+.navbar {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.nav-item {
+    padding: 15px;
+}
+
+.carousel-inner {
+    padding-top: 5%;
+}
+
+.carousel-item {
+    min-width: 300px;
+
+    img {
+        height: 55vh;
+    }
+}
+
+.navbar-brand img {
+    border-radius: 5%;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        bottom: 125px;
+    }
+}
+
+.about-img img {
+    width: 700px;
+}
+
+.about-seccion-padding {
+    padding: 3%;
+}
+
+.row {
+    justify-content: center;
+    align-items: center;
+}
+
+.col {
+    width: 600px;
+    padding: 3%;
+}
+
+.product {
+    padding: 5%;
+}
+
+.producto-titulo {
+    text-align: center;
+}
+
+.card img {
+    transition: all 0.3s ease;
+    overflow: hidden;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.card-boton2 {
+    font-weight: bold;
+    color: #4e413b;
+    text-decoration: none;
+
+    &:hover {
+        color: #857671;
+    }
+}
+
+.redes a i {
+    width: 60px;
+    color: black;
+    font-size: 25px;
+}
+
+.footer .redes a i {
+    color: black;
+
+    &:hover {
+        text-decoration: none;
+        color: #f9f3e6;
+    }
+}
+
+/**Productos**/
+
+.productos-container {
+    padding-top: 10%;
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+p span {
+    color: brown;
+}
+
+.card-boton {
+    padding-left: 43%;
+    font-weight: bold;
+    color: #4e413b;
+    text-decoration: none;
+
+    &:hover {
+        color: #857671;
+    }
+}
+
+/**sobre-nosotros**/
+
+.img-banner {
+    padding-top: 5%;
+}
+
+.Nosotros {
+    padding: 8%;
+
+    h2 {
+        font-size: 50px;
+        font-weight: bolder;
+        color: #5e616a;
+    }
+}
+
+/**pagina-productos**/
+body {
+    background: #e2dcd5;
+}
+
+.flex-box {
+    padding-top: 10%;
+    display: flex;
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.left {
+    width: 50%;
+}
+
+.big-img {
+    width: 500px;
+    overflow: hidden;
+    border-radius: 1.5%;
+
+    img {
+        width: inherit;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.img-productos {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    gap: 5%;
+    margin-top: 15px;
+}
+
+.sm-img {
+    width: 200px;
+    overflow: hidden;
+
+    img {
+        width: inherit;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border-radius: 1.5%;
+    }
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.rigt {
+    padding-left: 15%;
+}
+
+.nombre h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.precio {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.cantidad {
+    display: flex;
+
+    p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    input {
+        width: 60px;
+        font-size: 17px;
+        font-weight: 500;
+        text-align: center;
+    }
+}
+
+.btn-box {
+    display: flex;
+    margin: 20px 0;
+
+    button {
+        font-size: 18px;
+        padding: 8px 25px;
+        outline: none;
+        border-radius: 6px;
+        cursor: pointer;
+        background-color: #f9f3e6;
+
+    }
+}
+
+.descripcion {
+    display: flex;
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 8%;
+    color: #5e616a;
+
+}
+
+.descripcion-texto p {
+    font-size: 15px;
+}
